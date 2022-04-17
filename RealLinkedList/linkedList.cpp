@@ -26,8 +26,8 @@ private:
 			this->data = data;
 			this->pNext = pNext;
 		}
-
 	};
+
 	Node<T>* head;
 	int size;
 
