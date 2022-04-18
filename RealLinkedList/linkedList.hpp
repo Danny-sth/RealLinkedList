@@ -36,8 +36,9 @@ private:
 		Node<T>* previous = this->head;
 
 		for (int i = 0; i < index - 1; i++)
+		{
 			previous = previous->pNext;
-
+		}
 		return previous;
 	}
 };
